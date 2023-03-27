@@ -1,4 +1,4 @@
-test_hpp = custom_target(
+fanctrl_hpp = custom_target(
     'server.hpp',
     capture: true,
     command: [
@@ -14,7 +14,7 @@ test_hpp = custom_target(
     output: 'server.hpp',
 )
 
-test_cpp = custom_target(
+fanctrl_cpp = custom_target(
     'server.cpp',
     capture: true,
     command: [

@@ -1,5 +1,5 @@
 #include <boost/asio.hpp>
-#include <xyz/openbmc_project/test/server.hpp>
+#include <xyz/openbmc_project/fanctrl/server.hpp>
 #include <phosphor-logging/lg2.hpp>
 #include <sdbusplus/asio/connection.hpp>
 #include <sdbusplus/asio/object_server.hpp>

@@ -8,9 +8,9 @@ test_hpp = custom_target(
         'server-header',
         'xyz.openbmc_project.fanctrl',
     ],
-    input: '../test.interface.yaml',
+    input: '../fanctrl.interface.yaml',
     install: true,
-    install_dir: get_option('includedir') / 'xyz/openbmc_project/test',
+    install_dir: get_option('includedir') / 'xyz/openbmc_project/fanctrl',
     output: 'server.hpp',
 )
 
@@ -24,6 +24,6 @@ test_cpp = custom_target(
         'server-cpp',
         'xyz.openbmc_project.fanctrl',
     ],
-    input: '../test.interface.yaml',
+    input: '../fanctrl.interface.yaml',
     output: 'server.cpp',
 )
